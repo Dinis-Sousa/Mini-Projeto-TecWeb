@@ -45,6 +45,7 @@ nav{
     text-decoration: none;
     font-size:2em;
     font-family: 'poppins';
+    color:#0c238a;
 }
 .items:hover{
     color: white;

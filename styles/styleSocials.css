@@ -45,6 +45,7 @@ body{
     text-decoration: none;
     font-size:2em;
     font-family: 'poppins';
+    color:#0c238a;
 }
 .items:hover{
     color: white;
@@ -125,18 +126,21 @@ form input[type=password]{
     display: inline;
     padding: 20px;
     font-size: 40px;
-    color:black;
+    color:white;
+    cursor:pointer;
 }
 .icons a:hover{
-    color:white;
+    color: #3700ff;
 }
 .socialsText{
     font-size:30px;
     border:1px solid black;
-    padding: 150px 500px 150px 50px;
+    padding: 20px 80px;
     border-radius: 40px;
     background-color: black;
     color:white;
+    display:flex;
+    align-items:center;
 }
 .section3{
     padding:20px 10px;
