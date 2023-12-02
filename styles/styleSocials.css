@@ -64,6 +64,9 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+.leftSide label{
+    text-align: start;
+}
 form{
     border: 1px solid white;
     border-radius: 30px;
