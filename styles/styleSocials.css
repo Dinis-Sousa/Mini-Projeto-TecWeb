@@ -57,7 +57,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:black;
+    background-color:white;
 }
 .leftSide{
     display: flex;
@@ -68,7 +68,7 @@ body{
     text-align: start;
 }
 form{
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 30px;
     padding: 0px 50px;
     height: 350px;
@@ -76,25 +76,25 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: black;
-    color:white;
+    background-color: transparent;
+    color:black;
 }
 form input[type=email]{
-    border:1px solid white;
+    border:1px solid black;
     border-radius: 30px;
     background: transparent;
     padding:20px 45px 20px 20px;
     font-size: 16px;
-    color:white;
+    color:black;
 }
 
 form input[type=password]{
-    border:1px solid white;
+    border:1px solid black;
     border-radius: 30px;
     background: transparent;
     padding:20px 45px 20px 20px;
     font-size: 16px;
-    color:white;
+    color:black;
 }
 .button1{
     display: inline;
@@ -106,17 +106,17 @@ form input[type=password]{
     padding: 10px 0px;
     width:30%;
     cursor: pointer;
-    background:white;
-    color:black;
+    background:black;
+    color:white;
 }
 .button1 input[type=button]{
     border-radius: 20px;
-    border:1px solid white;
+    border:1px solid black;
     padding: 10px 0px;
     width:30%;
     cursor: pointer;
-    background-color:black;
-    color:white;
+    background-color:white;
+    color:black;
 }
 .icons{
     display: flex;
@@ -129,7 +129,7 @@ form input[type=password]{
     display: inline;
     padding: 20px;
     font-size: 40px;
-    color:white;
+    color:black;
     cursor:pointer;
 }
 .icons a:hover{
@@ -137,11 +137,11 @@ form input[type=password]{
 }
 .socialsText{
     font-size:30px;
-    border:1px solid white;
+    border:1px solid black;
     padding: 20px 80px;
     border-radius: 40px;
-    background-color: black;
-    color:white;
+    background-color: transparent;
+    color:black;
     display:flex;
     align-items:center;
 }
