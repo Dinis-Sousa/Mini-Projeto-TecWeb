@@ -79,25 +79,25 @@ body{
 .container1{
     padding: 20px 0px;
     display: grid;
-    grid-template-columns: 300px 300px 300px ;
+    grid-template-columns: 20em 20em 20em ;
     grid-template-rows: auto auto;
-    column-gap: 400px;
+    column-gap: 20em;
     row-gap: 60px;
 }
 .grid-image{
-    width: 295px;
+    width: 20rem;
     border-radius: 20px;
 }
 .text{
     margin-top: 16px;
     margin-bottom: 6px;
     margin: 0px;
-    font-size: 20px;
+    font-size: 1.8em;
     font-weight: 500;
 }
 .price{
     margin:0px;
-    font-size:24px;
+    font-size:2em;
     font-weight: 400;
 }
 .gridItems1:hover{
