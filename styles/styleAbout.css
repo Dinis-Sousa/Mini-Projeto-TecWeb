@@ -5,9 +5,6 @@ body{
     color:#000000;
     font-family: 'Inter'; 
 }
-nav{
-    margin:0px;
-}
 .search_item{
     font-size: 1.5em;
     border-radius: 20px;
@@ -24,9 +21,8 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding:8px 30px;
+    padding:38px 30px;
     margin:0px;
-    height:115px;
 }
 .pageName{
     font-size: 1.5em;
@@ -84,4 +80,27 @@ nav{
     color:white;
     text-decoration: none;
     padding: 20px;
+}
+
+@media only screen and (max-width:1400px){
+    .section1{
+        background-color: #d1cfcf;
+        background: none;
+    }
+}
+
+@media only screen and (max-width:946px){
+    .items{
+        display: inline-block;
+        vertical-align: top;
+    }
+}    
+@media only screen and (max-width:724px){
+    .section3{
+        height:180px;
+    }
+    .search_item{
+        padding: 2px 6px 2px 2px;
+        width: 200px;
+    }
 }

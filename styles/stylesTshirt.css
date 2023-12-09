@@ -21,9 +21,8 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding:8px 30px;
+    padding:38px 30px;
     margin:0px;
-    height: 115px;
 }
 .pageName{
     font-size: 1.5em;
@@ -98,4 +97,27 @@ body{
     color:white;
     text-decoration: none;
     padding: 20px;
+}
+
+
+@media only screen and (max-width:1550px){
+    .grid-container{
+        grid-template-columns: 300px 300px;
+    }
+}
+
+@media only screen and (max-width:950px){
+    .grid-container{
+        grid-template-columns: 300px;
+    }
+    .search_item{
+        padding: 2px 6px 2px 2px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width:693px){
+    .section3{
+        height:180px;
+    }
 }
