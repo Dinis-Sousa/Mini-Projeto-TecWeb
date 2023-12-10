@@ -1,50 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500&family=Poppins:wght@100;400;500&family=Raleway:wght@100&display=swap');
-
-body{
-    margin:0px 0px;
-    color:#000000;
-    font-family: 'Inter'; 
-}
-.search_item{
-    font-size: 1.5em;
-    border-radius: 20px;
-}
-.search_item1{
-    font-size: 1.5em;
-    border: 1px solid;
-    border-radius: 20px;
-    cursor:pointer;
-    background:white;
-}
-.nav_bar{
-    background-color: pink;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:38px 30px;
-    margin:0px;
-}
 .pageName{
-    font-size: 1.5em;
+    padding: 30px 0px;
+}
+  .pageName a{
+    text-decoration: none;
+    font-size:1.5em;
     color:white;
     font-family: 'Poppins';
-    font-weight: 500;
-}
-.pageName a{
-    text-decoration: none;
-    font-size: 1.5em;
-    color:white;
-}
-.items{
-    display: inline;
-    padding: 5px;
-    text-decoration: none;
-    font-size:2em;
-    font-family: 'poppins';
-    color:#0c238a;
-}
-.items:hover{
-    color: white;
+    font-weight: bold;
 }
 .section1{
     padding:80px;
@@ -77,28 +39,6 @@ body{
 .items1:hover{
     color:blue; 
 }
-.section3{
-    padding:20px 10px;
-    margin:0px;
-    height:100px;
-    background-color:#000000;
-}
-.footer{
-    text-align: end;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-.footer h1{
-    color:white;
-}
-.footer i{
-    font-size:50px;
-    color:white;
-    text-decoration: none;
-    padding: 20px;
-}
-
 
 @media only screen and (max-width:1550px){
     .grid-container{
@@ -109,15 +49,5 @@ body{
 @media only screen and (max-width:950px){
     .grid-container{
         grid-template-columns: 300px;
-    }
-    .search_item{
-        padding: 2px 6px 2px 2px;
-        width: 200px;
-    }
-}
-
-@media only screen and (max-width:693px){
-    .section3{
-        height:180px;
     }
 }

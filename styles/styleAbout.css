@@ -1,106 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500&family=Poppins:wght@100;400;500&family=Raleway:wght@100&display=swap');    
-
-body{
-    margin:0px 0px;
-    color:#000000;
-    font-family: 'Inter'; 
-}
-.search_item{
-    font-size: 1.5em;
-    border-radius: 20px;
-}
-.search_item1{
-    font-size: 1.5em;
-    border: 1px solid;
-    border-radius: 20px;
-    cursor:pointer;
-    background:white;
-}
-.nav_bar{
-    background-color: pink;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:38px 30px;
-    margin:0px;
-}
 .pageName{
-    font-size: 1.5em;
-    color:white;
-    font-family: 'Poppins';
-    font-weight: 500;
+  padding: 30px 0px;
 }
 .pageName a{
-    text-decoration: none;
-    font-size: 1.5em;
-    color:white;
+  text-decoration: none;
+  font-size:1.5em;
+  color:white;
+  font-family: 'Poppins';
+  font-weight: bold;
 }
-.items{
-    display: inline;
-    padding: 5px;
-    text-decoration: none;
-    font-size:2em;
-    font-family: 'poppins';
-    color:#0c238a;
+.section5 {
+  min-height: calc(100vh - 131px - 140px);
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(to right, white, black);
 }
-.items:hover{
-    color: white;
+.section5 h1 {
+  padding: 10px 30px;
+  margin: 0px;
 }
-.section1{
-    margin:0px;
-    padding:0px;
-    background:linear-gradient(to right,white,black);
+.section5 p {
+  padding: 12px 30px;
+  margin: 0px;
 }
-.section1 h1{
-    padding:10px 30px;
-    margin:0px;
-}
-.section1 p{
-    padding:12px 30px;
-    margin:0px;
-}
-.section3{
-    padding:20px 10px;
-    margin:0px;
-    height:100px;
-    background-color:#000000;
-}
-.footer{
-    text-align: end;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-.footer h1{
-    color:white;
-    padding:10px;
-}
-.footer i{
-    font-size:50px;
-    color:white;
-    text-decoration: none;
-    padding: 20px;
+@media only screen and (max-width: 1400px) {
+  .section1 {
+    background-color: #d1cfcf;
+    background: none;
+  }
 }
 
-@media only screen and (max-width:1400px){
-    .section1{
-        background-color: #d1cfcf;
-        background: none;
-    }
+@media only screen and (max-width: 946px) {
+  .items {
+    display: inline-block;
+    vertical-align: top;
+  }
 }
-
-@media only screen and (max-width:946px){
-    .items{
-        display: inline-block;
-        vertical-align: top;
-    }
-}    
-@media only screen and (max-width:724px){
-    .section3{
-        height:180px;
-    }
-    .search_item{
-        padding: 2px 6px 2px 2px;
-        width: 200px;
-    }
+@media only screen and (max-width: 724px) {
+  .section3 {
+    height: 180px;
+  }
+  .search_item {
+    padding: 2px 6px 2px 2px;
+    width: 200px;
+  }
 }
