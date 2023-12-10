@@ -19,6 +19,7 @@
   padding: 10px 30px;
 }
 .section4 p {
+  font-weight: bold;
   margin: 0px;
   padding: 10px 30px;
   font-weight: medium;
@@ -33,6 +34,7 @@
 }
 .item {
   font-size: 1em;
+  font-weight: bold;
 }
 .section3 {
   padding: 20px 10px;
